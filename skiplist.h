@@ -35,7 +35,7 @@
 #include <math.h>
 
 // data list node
-typedef struct {
+typedef struct _CSSL_DataNode {
   uint32_t key;
   struct _CSSL_DataNode *next;
 } _CSSL_DataNode;
